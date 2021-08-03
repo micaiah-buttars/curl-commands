@@ -1,0 +1,10 @@
+curl -X
+    Explicitly defines which server method is being used
+curl -H 
+    Extra header to include in the request when sending HTTP to a server.
+curl -d
+    Sends the specified data in a POST request to the HTTP server.
+curl --dns-servers <addresses>
+    Set the list of DNS servers to be used instead of the system default.
+curl -f
+    Fail silently on server errors.
